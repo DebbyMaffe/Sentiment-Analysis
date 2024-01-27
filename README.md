@@ -37,8 +37,8 @@ The analysis then extends to examining text *length* distributions for different
 * **Neutral** Polarity: if the polarity score is close to **0**, representing a *neutral* sentiment. 
 
 Since it can be performed using various techniques, including *rule-based* methods, *machine learning-based* methods, and *pre-trained* models, let's analyse two of the most common approaches:
-* **1. VADER Sentiment Scoring**, a rule-based sentiment analysis tool designed for social media text. It uses a **pre-built** *lexicon* of words with sentiment scores to calculate a **compound** *score*, representing overall sentiment polarity and intensity. The analysis includes visualizations of sentiment scores based on different Amazon *star ratings*.
-* **2. ROBERTA Pre-Trained Model**, a state-of-the-art **pre-trained** language model based on the *transformer* architecture. It is trained on a massive amount of data to capture diverse *language* patterns. The analysis involves visualizing sentiment scores based on different *star ratings*.
+* **VADER Sentiment Scoring**, a rule-based sentiment analysis tool designed for social media text. It uses a **pre-built** *lexicon* of words with sentiment scores to calculate a **compound** *score*, representing overall sentiment polarity and intensity. The analysis includes visualizations of sentiment scores based on different Amazon *star ratings*.
+* **ROBERTA Pre-Trained Model**, a state-of-the-art **pre-trained** language model based on the *transformer* architecture. It is trained on a massive amount of data to capture diverse *language* patterns. The analysis involves visualizing sentiment scores based on different *star ratings*.
 
 **Comparisons** between VADER and ROBERTA are made, discussing their *advantages* and *limitations*. The accuracy, precision, recall, and F1-score metrics are computed for both models, providing insights into their **performance** on different *sentiment* classes. The results indicate that **VADER** performs better on the *negative* class, while **ROBERTA** shows *similar* trends across sentiment categories.
 
